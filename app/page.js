@@ -59,7 +59,7 @@ export default function Home() {
 
                 <Button className="my-10" variant="outline">
                   Schedule your Meeting
-                </Button> <https://community.sonensolutions.com
+                </Button>
               </div>
             </Card>
 
