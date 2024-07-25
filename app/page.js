@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <>
       <header className="flex justify-between">
-        <h1 className="m-10 text-2xl font-bold">Test App</h1>
+        <h1 className="m-10 text-2xl font-bold">Zoom-Party Test App</h1>
         <Link href="/call">
           <Button className="m-10">Join Party</Button>
         </Link>
@@ -59,7 +59,7 @@ export default function Home() {
 
                 <Button className="my-10" variant="outline">
                   Schedule your Meeting
-                </Button>
+                </Button> <https://community.sonensolutions.com
               </div>
             </Card>
 
