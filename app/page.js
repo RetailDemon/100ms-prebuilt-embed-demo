@@ -26,9 +26,9 @@ export default function Home() {
   return (
     <>
       <header className="flex justify-between">
-        <h1 className="m-10 text-2xl font-bold">Consult Doc</h1>
+        <h1 className="m-10 text-2xl font-bold">Test App</h1>
         <Link href="/call">
-          <Button className="m-10">Call us</Button>
+          <Button className="m-10">Join Party</Button>
         </Link>
       </header>
       <main>
@@ -36,35 +36,35 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-around ">
             <Card>
               <h1 className="text-6xl font-bold pt-10 px-10">
-                Transform
+                Join
                 <br />
-                your health
+                the ultimate
                 <br />
-                with expert
+                with party
                 <br />
-                care
+                now
               </h1>
               <h3 className="text-lg px-10 pt-5">
                 Our goal is to empower you with the
                 <br />
-                knowledge and resources you need to make
+                freedom and resources you need to enjoy
                 <br />
-                informed decisions about your health.
+                the ultimate PNP virtual experience.
               </h3>
 
               <div>
                 <Link href="/call">
-                  <Button className="m-10 mr-2">Call us</Button>
+                  <Button className="m-10 mr-2">Join Now</Button>
                 </Link>
 
                 <Button className="my-10" variant="outline">
-                  Book an appointment
+                  Schedule your Meeting
                 </Button>
               </div>
             </Card>
 
             <div className="rounded-2xl w-full lg:w-[850px] h-[800px] lg:h-[550px] overflow-hidden ">
-              <HMSPrebuilt roomCode="pli-mvvn-hwi" />
+              <HMSPrebuilt roomCode="rem-koqo-kng" />
             </div>
           </div>
         </section>
@@ -104,11 +104,11 @@ export default function Home() {
 
         <section>
           <div>
-            <h1 className="text-4xl font-bold text-center">How We Work</h1>
+            <h1 className="text-4xl font-bold text-center">How It Work</h1>
             <p className="text-base text-center my-5">
-              We understand that time and experience are your
+              I understand that time and experience are your
               <br />
-              priority, so we simplify the whole process.
+              priority, so I simplified the whole process.
             </p>
             <div className="flex flex-row justify-evenly mt-20">
               <div className="flex flex-col">
@@ -117,7 +117,7 @@ export default function Home() {
                 </Card>
                 <h1 className="text-xl font-bold pt-5">Virtual Consultation</h1>
                 <h3 className="text-base pt-2">
-                  Talk to your doctor via video
+                  Take your PNP experience via video
                   <br />
                   or audio chat. Ask questions, and
                   <br />
@@ -129,14 +129,14 @@ export default function Home() {
                   <FontAwesomeIcon className="" icon={faMedkit} />
                 </Card>
                 <h1 className="text-xl font-bold pt-5">
-                  Prescriptions and Advice
+                  Joining a Custom Room
                 </h1>
                 <h3 className="text-base pt-2">
-                  After your chat, your doctor will
+                  To get your own custom video hosting 
                   <br />
-                  provide any necessary prescriptions
+                  experience, go to https://community.sonensolutions.com
                   <br />
-                  or recommendations.
+                  and send a message to @Room-Master.
                 </h3>
               </div>
               <div className="flex flex-col">
@@ -144,14 +144,14 @@ export default function Home() {
                   <FontAwesomeIcon className="" icon={faCalendar} />
                 </Card>
                 <h1 className="text-xl font-bold pt-5">
-                  Follow-Up Appointments
+                  Rooms of up to 5,000 participants 
                 </h1>
                 <h3 className="text-base pt-2">
-                  If needed, set up follow-up
+                  If you're looking to host a Meg room
                   <br />
-                  appointments with your chosen
+                  experience with 100+ users
                   <br />
-                  doctor or another specialist
+                  get in touch with @Room-Master
                 </h3>
               </div>
             </div>
@@ -164,9 +164,9 @@ export default function Home() {
       <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
         <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2023{" "}
+            © 2024{" "}
             <a href="" class="hover:underline">
-              Demo™
+              RETDEM STUDIO LLC.™
             </a>
             . All Rights Reserved.
           </span>
