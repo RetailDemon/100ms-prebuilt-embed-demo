@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <>
       <header className="flex justify-between">
-        <h1 className="m-10 text-2xl font-bold">Zoom-Party Test App</h1>
+        <h1 className="m-10 text-2xl font-bold">Zoom Party Test App</h1>
         <Link href="/call">
           <Button className="m-10">Join Party</Button>
         </Link>
